@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Practice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="header">
+            <div class="menu">
+                <img class="menu__icon" src="assets/menu-button-of-three-horizontal-lines.svg" alt="Menu Symbol">  
+                <img class="menu__icon menu__icon--big" src="assets/youtube.svg" alt="Youtube Logo">
+                <h5 class="menu__text">YouTube</h5>
+            </div>
+            <form action="" class="search">
+                <input class="search__input" type="text" placeholder="Search">
+                <input class="search__icon" type="image" src="assets/search.svg" alt="submit">
+            </form>
+            <div class="options">
+                <a href=""><img class="options__icon" src="assets/add.svg" alt="Video Camera Icon"></a>
+                <a href=""><img class="options__icon" src="assets/menu.svg" alt="Grid Icon"></a>
+                <a href=""><img class="options__icon" src="assets/bell.svg" alt="Notification Bell Icon"></a>
+                <a class="options__icon options__icon--circle" href="">S</a>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="video-comments">
+            <div class="iframe-box">
+                <iframe src="https://www.youtube.com/embed/KtT_cgMzHx8" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                https://i.ytimg.com/vi/KtT_cgMzHx8/sddefault.jpg
+            </div>
+            <section class="video-stats">
+                <h2 class="video-stats__title">The Human Jukebox</h2>
+                <div class="video-stats__container">
+                    <h4 class="video-stats__title--small">3,165,846 views - Aug, 7 2012</h4>
+                    <div>
+                        <p class="video-stats__text video-stats__text--likes">
+                            <img class="video-stats__icon" src="assets/like.svg" alt="Thumbs up"> 63K
+                            <span class="video-stats__text--space"></span>
+                            <img class="video-stats__icon" src="assets/hand.svg" alt="Thumbs down"> 343
+                        </p>
+                        <p class="video-stats__text video-title__text--upcase">
+                            <img class="video-stats__icon" src="assets/share.svg" alt="Share symbol">Share
+                        </p>
+                        <p class="video-stats__text video-title__text--upcase">
+                            <img class="video-stats__icon" src="assets/save.svg" alt="Share symbol">Save
+                        </p>
+
+                    </div>
+                </div>
+
+            </section>
+            <section class="video-details">
+                <div>
+                    <img class="profile__pic profile__pic--big" src="https://telegram.org/file/464001549/1/q2NNoVCmotM.23854/f5ece7783dc87a99fa" alt="">
+                </div>
+                <div>
+                    <h3 class="profile__title--big profile__title">TED-Ed</h3>
+                    <p class="profile__text--small profile__text">11.1M subscribers</p>
+                    <p class="profile__text">View full lesson: 
+                        <a href="https://ed.ted.com/lessons/check-your-intuition-the-birthday-problem-david-knuffke">
+                            Ted Ed: Birthday Problem
+                        </a>
+                    </p>
+                    <p class="profile__text">Imagine a group of people. How big do you think the group would have to be before there’s more than a 50% chance that
+                    two people in the group have the same birthday? The answer is … probably lower than you think. David Knuffke explains
+                    how the birthday problem exposes our often-poor intuition when it comes to probability.</p>
+                    <button class="profile__button profile__button--plain">Show More</button>
+                </div>
+                <div>
+                    <button class="profile__button profile__button--red">Subscribe</button>
+                </div>
+            </section>
+            <section class="add-comment">
+                <div>
+                    <div>
+                        <h5 class="add-comment__title">1738 Comments</h5>
+                        <span><img class="add-comment__icon" src="assets/comment.svg" alt="">SORT BY</span>
+                    </div>
+                    <div class="add-comment__container">
+                        <img class="profile__pic profile__pic--big" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBbxFyEiUmrN1qw8CYdv2ODiRWq_XllbGM3zFfCqt3Qq8PN_ZY&usqp=CAU" alt="">
+                        <form action="">
+                            <input class="add-comment__input" class="" type="text" placeholder="Add a public comment...">
+                        </form>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div>
+                        <img class="comment__pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThWqeQOiEbKr2Ccg7SZr58L0e3y5tqp4ENARE6m0lAMLitSZ9T&usqp=CAU" alt="">
+                    </div>
+                    <div>
+                        <h6 class="comment__name">pxrenatxre <span>2 years ago</span></h6>
+                        <p class="comment__text">i dont even wanna know how difficult the editing of this video was</p>
+                        <p class="comment__stats">
+                            <img class="comment__icon" src="assets/like.svg" alt="">3.4k   
+                            <img class="comment__icon" src="assets/hand.svg" alt=""> REPLY
+                        </p>
+                        <button class="comment__button">
+                            <span class="comment__icon--small">&darr;</span> View 4 replies
+                        </button>
+                    </div>
+                    <div class="comment__options">
+                        <img class="comment__icon" src="assets/options.svg" alt="">
+                    </div>
+                </div>
+                <div class="comment">
+                    <div>
+                        <img class="comment__pic" src="https://yt3.ggpht.com/a/AATXAJwdItEK2KICtES7o3tIHKTr2bvDNINEBUJCnw=s48-c-k-c0xffffffff-no-rj-mo" alt="">
+                    </div>
+                    <div>
+                        <h6 class="comment__name">Lelouch Yagami<span>2 years ago</span></h6>
+                        <p class="comment__text">Funny thing is in my 10 years of school with an average of 25 students in the class, nobody had shared birthdays</p>
+                        <p class="comment__stats">
+                            <img class="comment__icon" src="assets/like.svg" alt="">2.3k   
+                            <img class="comment__icon" src="assets/hand.svg" alt=""> REPLY
+                        </p>
+                        <button class="comment__button">
+                            <span class="comment__icon--small">&darr;</span> View 68 replies
+                        </button>
+                    </div>
+                    <div class="comment__options">
+                        <img class="comment__icon" src="assets/options.svg" alt="">
+                    </div>
+                </div>
+                <div class="comment">
+                    <div>
+                        <img class="comment__pic" src="https://yt3.ggpht.com/a/AATXAJwxbG2Mf21IpgE9Zy-85xhMPJExzqN-tCa9Bg=s48-c-k-c0xffffffff-no-rj-mo" alt="">
+                    </div>
+                    <div>
+                        <h6 class="comment__name">Sanjivanie<span>2 months ago</span></h6>
+                        <p class="comment__text">"take a moment to think about it"
+                        Me: bold of you to assume I think</p>
+                        <p class="comment__stats">
+                            <img class="comment__icon" src="assets/like.svg" alt="">675   
+                            <img class="comment__icon" src="assets/hand.svg" alt=""> REPLY
+                        </p>
+                        <button class="comment__button">
+                            <span class="comment__icon--small">&darr;</span> View 3 replies
+                        </button>
+                    </div>
+                    <div class="comment__options">
+                        <img class="comment__icon" src="assets/options.svg" alt="">
+                    </div>
+                </div>
+                <div class="comment">
+                    <div>
+                        <img class="comment__pic" src="https://yt3.ggpht.com/a/AATXAJz1LlwBUsZSqsV3Bnszh9U0jMH96xBePCdwIw=s48-c-k-c0xffffffff-no-rj-mo" alt="">
+                    </div>
+                    <div>
+                        <h6 class="comment__name">Not Just a Stop Motion<span>2 months ago (edited)</span></h6>
+                        <p class="comment__text">I had three people in my class who all had the same birthday. Same month, same year, same day. Funny thing was, they’re all best friends</p>
+                        <p class="comment__stats">
+                            <img class="comment__icon" src="assets/like.svg" alt="">251   
+                            <img class="comment__icon" src="assets/hand.svg" alt=""> REPLY
+                        </p>
+                        <button class="comment__button">
+                            <span class="comment__icon--small">&darr;</span> View 5 replies
+                        </button>
+                    </div>
+                    <div class="comment__options">
+                        <img class="comment__icon" src="assets/options.svg" alt="">
+                    </div>
+                </div>
+                <div class="comment">
+                    <div>
+                        <img class="comment__pic" src="https://yt3.ggpht.com/a/AATXAJwNUL00Pc7jrIb8gfssG7JTYbuMFqtd0475wg=s48-c-k-c0xffffffff-no-rj-mo" alt="">
+                    </div>
+                    <div>
+                        <h6 class="comment__name">simplymaci<span>2 years ago</span></h6>
+                        <p class="comment__text">What a coincidence! You uploaded this on my birthday 😂🎂✨</p>
+                        <p class="comment__stats">
+                            <img class="comment__icon" src="assets/like.svg" alt="">663   
+                            <img class="comment__icon" src="assets/hand.svg" alt=""> REPLY
+                        </p>
+                        <button class="comment__button">
+                            <span class="comment__icon--small">&darr;</span> View 17 replies
+                        </button>
+                    </div>
+                    <div class="comment__options">
+                        <img class="comment__icon" src="assets/options.svg" alt="">
+                    </div>
+                </div>
+                
+            </section>
+        </div>
+
+        <aside class="sidebar__container">
+            <h5 class="sidebar__title">Up next</h5>
+            <div class="related-video related-video--next">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/Uj3_KqkI9Zo/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Infinite Hotel Paradox - Jeff Dekofsky</h4>
+                    <h6 class="related-video__text">TED-Ed</h6>
+                     <p class="related-video__text">17M views <span class="related-video__symbol"> &#8901; </span> 6 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/t9Lo2fgxWHw/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Prisoner's Dilemma</h4>
+                    <h6 class="related-video__text">This Place</h6>
+                     <p class="related-video__text">4.8M views <span class="related-video__symbol"> &#8901; </span> 5 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/KtT_cgMzHx8/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">Why do competitos open their stores next to each other</h4>
+                    <h6 class="related-video__text">TED-Ed</h6>
+                     <p class="related-video__text">4.2M views <span class="related-video__symbol"> &#8901; </span> 7 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/jILgxeNBK_8/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Geography of Pets</h4>
+                    <h6 class="related-video__text">Atlas Pro</h6>
+                     <p class="related-video__text">1M views <span class="related-video__symbol"> &#8901; </span> 9 months ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/uCsD3ZGzMgE/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Josephus Problem Numberphile</h4>
+                    <h6 class="related-video__text">Numberphile</h6>
+                     <p class="related-video__text">4.8M views <span class="related-video__symbol"> &#8901; </span> 3 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/KtT_cgMzHx8/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Infinite Hotel Paradox - Jeff Dekofsky</h4>
+                    <h6 class="related-video__text">TED-Ed</h6>
+                     <p class="related-video__text">17M views <span class="related-video__symbol"> &#8901; </span> 6 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/KtT_cgMzHx8/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Infinite Hotel Paradox - Jeff Dekofsky</h4>
+                    <h6 class="related-video__text">TED-Ed</h6>
+                     <p class="related-video__text">17M views <span class="related-video__symbol"> &#8901; </span> 6 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/KtT_cgMzHx8/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Infinite Hotel Paradox - Jeff Dekofsky</h4>
+                    <h6 class="related-video__text">TED-Ed</h6>
+                     <p class="related-video__text">17M views <span class="related-video__symbol"> &#8901; </span> 6 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/KtT_cgMzHx8/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Infinite Hotel Paradox - Jeff Dekofsky</h4>
+                    <h6 class="related-video__text">TED-Ed</h6>
+                     <p class="related-video__text">17M views <span class="related-video__symbol"> &#8901; </span> 6 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/KtT_cgMzHx8/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Infinite Hotel Paradox - Jeff Dekofsky</h4>
+                    <h6 class="related-video__text">TED-Ed</h6>
+                     <p class="related-video__text">17M views <span class="related-video__symbol"> &#8901; </span> 6 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img class="related-video__image" src="https://i.ytimg.com/vi/KtT_cgMzHx8/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Infinite Hotel Paradox - Jeff Dekofsky</h4>
+                    <h6 class="related-video__text">TED-Ed</h6>
+                     <p class="related-video__text">17M views <span class="related-video__symbol"> &#8901; </span> 6 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Uj3_KqkI9Zo">
+                    <img  class="related-video__image" src="https://i.ytimg.com/vi/KtT_cgMzHx8/sddefault.jpg" alt="">
+                </a>
+                <div class="related-video__text-container">
+                    <h4 class="related-video__title">The Infinite Hotel Paradox - Jeff Dekofsky</h4>
+                    <h6 class="related-video__text">TED-Ed</h6>
+                     <p class="related-video__text">17M views <span class="related-video__symbol"> &#8901; </span> 6 years ago</p>
+                </div>
+                <div class="related-video__button">
+                    <img class="related-video__icon" src="assets/options.svg" alt="">
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer></footer>
+</body>
+</html>
